@@ -27,7 +27,7 @@ var consolere = require('console-remote-client').connect('console.re','80','A002
 
 //We need a function which handles requests and send response
 function handleRequest(request, response){
-    response.end('Yes! It Works!! Path Hit: ' + server_ip_address + ":" + server_port + "/" + request.url);
+    response.end('Help me I'm trapped inside a computer! Path Hit: ' + server_ip_address + ":" + server_port + "/" + request.url);
     console.re.log("My server ip address is: " + server_ip_address + ":" + server_port);
 }
 //What is a request?
